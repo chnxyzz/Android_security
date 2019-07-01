@@ -2,6 +2,7 @@
 > 仅为私人的成长笔记，记录下来，聊表心意。
 > one crash one day ， graduate one day。
 > 攻击向量对程序的控制能力、影响范围
+
 ## Android的功能
 * Android生态圈
 
@@ -207,6 +208,9 @@ RSS、相关博文 【RSS订阅】TODO 推送吧
 ### 熟悉漏洞
 * 各组件漏洞积累
    one crash one day ， graduate one day。
+
+* 复现木马
+    认识janus
 * https://github.com/B3nac/Android-Reports-and-Resources
 * 复现搜狗浏览器 
      替换了so 
@@ -217,7 +221,13 @@ RSS、相关博文 【RSS订阅】TODO 推送吧
          system/bt 
 
 ### CTF以及Android安全基础
-* https://mobisec.reyammer.io/challs
+ 
+  https://mobisec.reyammer.io/challs
+
+* mobsecctf、googlectf
+  googlectf题：
+    https://balsn.tw/ctf_writeup/20190622-googlectfquals/#flaggy-bird
+  * 出月赛题
 
 ## Mark
 wrike (lib/armeabi-v7a/libnpl-tls.so,execv，Musigy::Platform::PID __fastcall Musigy::Platform::SpawnProcess,涉及到c++ name mangling ref https://blog.csdn.net/yaoyutian/article/details/55209963。类似于Jni，需要自己逆出虚表，手动调)
