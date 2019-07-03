@@ -11,7 +11,7 @@ jeb2 没有编译成功，人工翻译 smali代码（208行）
 
 pin 的长度为 6
 
-'''python
+	'''shell
 	checkPin(pin){
 		if !len(pin) == 6:
 			return 0
@@ -31,7 +31,7 @@ pin 的长度为 6
 		else:
 			return 0
 	}
-'''
+	'''
 
 整个题目的解题思路如下
 1.逆smali代码，得到pin
