@@ -11,7 +11,7 @@ jeb2 没有编译成功，人工翻译 smali代码（208行）
 
 pin 的长度为 6
 
-	'''shell
+	'''python
 	checkPin(pin){
 		if !len(pin) == 6:
 			return 0
