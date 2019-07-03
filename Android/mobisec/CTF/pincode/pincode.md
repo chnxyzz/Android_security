@@ -30,3 +30,7 @@ checkPin(pin){
 	else:
 		return 0
 }
+
+整个题目的解题思路如下
+1.逆smali代码，得到pin
+2.从“https://challs.reyammer.io/pincode/pin”中得到flag
