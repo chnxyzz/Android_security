@@ -20,8 +20,8 @@ for v0 in range(0,10):
 						#get pin
 						pin = str(sa[v0])+str(sa[v1])+str(sa[v2])+str(sa[v3])+str(sa[v4])+str(sa[v5])
 						print("[+] 1 " + pin)
-						for j in range(0,0x20):
-							for i in range(0,0x200):
+						for j in range(0,25):
+							for i in range(0,400):
 								my_md5 = hashlib.md5()
 								my_md5.update(pin.encode())
 								my_md5_Digest = my_md5.hexdigest()
